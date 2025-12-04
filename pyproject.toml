@@ -1,0 +1,23 @@
+[project]
+name = "psycho-world"
+version = "0.1.0"
+description = "DreamCUB-inspired POMDP framework for computational psychotherapy."
+authors = [{name = "Psycho-World Contributors"}]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain-community>=0.2.0",
+    "langchain-openai>=0.1.0",
+    "chromadb>=0.4.24",
+    "neo4j>=5.17.0",
+    "tqdm>=4.66.0",
+    "datasets>=2.19.0",
+    "transformers>=4.41.0",
+    "accelerate>=0.29.0",
+    "gymnasium>=0.29.1",
+    "torch>=2.1.0",
+]
+
+[build-system]
+requires = ["setuptools>=67", "wheel"]
+build-backend = "setuptools.build_meta"
